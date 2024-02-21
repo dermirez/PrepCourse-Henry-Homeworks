@@ -8,23 +8,75 @@
 <body>
    <!-- Contenido de la página va aquí-->
    <header>
-    <a href="">Lugares 📍</a>
-    <a href="">Gastronomia 🍤</a>
-    <a href="">Pesonajes 👨🏼‍💼👩🏼‍🎤</a>
-    <a href="">Carnaval 🎭</a>
+    <a href="#lugares">Lugares 📍</a>
+    <a href="#gastronomia">Gastronomia 🍤</a>
+    <a href="#pesonajes">Pesonajes 👨🏼‍💼👩🏼‍🎤</a>
+    <a href="#carnaval">Carnaval 🎭</a>
+    <a href="#contactanos">Contáctanos 📧</a>
    </header>
 
    <main>
-    <h1>¡Así es Barranquilla!</h1>
-    <img src="./atardecer.jpg" alt="atardecer de Barranquilla">
+    
+    <div id="hero">
+      <h1>¡Así es Barranquilla!</h1>
+      <img src="./atardecer.jpg" alt="atardecer de Barranquilla">
+      <hr>
+    </div>
+
     <section>
-      <h2>Lugares</h2>
+
+      <h2 id="lugares">Lugares</h2>
       <div>
-        <img src="" alt="">
+        <img src="./ventana-campeones.jpg" alt="ventana de campeones" width="400">
       </div>
+      <hr>
+
+      <h2 id="gastronomia">Gastronomia</h2>
+      <div>
+        <img src="./mojarra-frita.jpg" alt="gastronomia" width="400">
+      </div>
+      <hr>
+
+      <h2 id="pesonajes">Pesonajes</h2>
+      <div>
+        <img src="./shakira-dancing.jpg" alt="Sharika dancing" width="300">
+      </div>
+      <hr>
+
+      <h2 id="carnaval">Carnaval de Barranquilla</h2>
+      <div>
+        <img src="./carnaval-barranquilla.jpg" alt="Carnaval de Barranquilla" width="400">
+      </div>
+      <hr>
+
     </section>
-    <section></section>
-    <section></section>
+
+    <section id="contactanos">
+      <form action="">
+
+        <h3>Contáctanos</h3>
+
+        <div>
+          <input type="text" placeholder="Nombre">
+        </div>
+
+        <div>
+          <input type="text" placeholder="Apellido">
+        </div>
+        
+        <div>
+          <input type="mail" placeholder="email">
+        </div>
+
+        <div>
+          <input type="text" placeholder="instagram">
+        </div>
+
+        <button>Submit</button>
+        
+      </form>
+    </section>
+    
    </main>
 
    <footer></footer>
