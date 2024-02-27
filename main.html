@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Primer Sitio Web</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <!-- Contenido de la página va aquí-->
   <header>
     <nav>
-      <ul>
-        <li> <a href="#lugares">Lugares 📍</a> </li>
-        <li> <a href="#gastronomia">Gastronomia 🍤</a> </li>
-        <li> <a href="#pesonajes">Pesonajes 👨🏼‍💼👩🏼‍🎤</a> </li>
-        <li> <a href="#carnaval">Carnaval 🎭</a> </li>
-        <li> <a href="#contactanos">Contáctanos 📧</a> </li>
-      </ul>
+      <div>
+        <ul>
+          <li> <a href="#lugares">Lugares 📍</a> </li>
+          <li> <a href="#gastronomia">Gastronomia 🍤</a> </li>
+          <li> <a href="#pesonajes">Pesonajes 👨🏼‍💼👩🏼‍🎤</a> </li>
+          <li> <a href="#carnaval">Carnaval 🎭</a> </li>
+          <li> <a href="./contactForm.html" target=”_blank”>Contáctanos 📧</a> </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -23,72 +26,49 @@
     
     <div id="hero">
       <h1>¡Así es Barranquilla!</h1>
-      <img src="./assets/atardecer.jpg" alt="atardecer de Barranquilla">
+      <img src="./assets/atardecer.jpg" alt="Iglesia San Nicolas">
+      <p>Iglesia San Nicolas</p>
       <hr>
     </div>
 
     <section>
-
-      <h2 id="lugares">Lugares</h2>
-      <div>
-        <img src="./assets/ventana-campeones.jpg" alt="ventana de campeones" width="400">
-      </div>
-      <hr>
-
-      <h2 id="gastronomia">Gastronomia</h2>
-      <div>
-        <img src="./assets/mojarra-frita.jpg" alt="gastronomia" width="400">
-      </div>
-      <hr>
-
-      <h2 id="pesonajes">Pesonajes</h2>
-      <div>
-        <img src="./assets/shakira-dancing.jpg" alt="Sharika dancing" width="300">
-      </div>
-      <hr>
-
-      <div>
-        <img src="./assets/edgar-renteria.jpg" alt="Edgar Rentería" width="300">
-      </div>
-      <hr>
-
-      <h2 id="carnaval">Carnaval de Barranquilla</h2>
-      <div>
-        <img src="./assets/carnaval-barranquilla.jpg" alt="Carnaval de Barranquilla" width="400">
-      </div>
-      <hr>
-
-    </section>
-
-    <div id="contactanos">
-      
-      <form action="/Enviar" method="post">
-
+      <div class="container-sections">
+        <h2 id="lugares">Lugares</h2>
         <div>
-          <input type="text" placeholder="Nombre">
+          <h3>Ventana de campeones</h3>
+          <img src="./assets/ventana-campeones.jpg" alt="ventana de campeones" width="400">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur nulla tempore expedita et. Quis amet similique officiis cupiditate odit fugiat magni! Eaque ipsa deleniti sed sunt? Asperiores, recusandae sequi?</p>
         </div>
-
+        <hr>
+        
+        <h2 id="gastronomia">Gastronomia</h2>
         <div>
-          <input type="text" placeholder="Apellido">
+          <img src="./assets/mojarra-frita.jpg" alt="gastronomia" width="400">
+        </div>
+        <hr>
+        
+        <h2 id="pesonajes">Pesonajes</h2>
+        <div>
+          <h3>Sharika</h3>
+          <img src="./assets/shakira-dancing.jpg" alt="Sharika dancing" width="300">
         </div>
         
         <div>
-          <input type="mail" placeholder="email">
+          <h4>Edgar Rentería (el niño de Barranquilla)</h4>
+          <img src="./assets/edgar-renteria.jpg" alt="Edgar Rentería" width="300">
         </div>
-
+        <hr>
+        
+        <h2 id="carnaval">Carnaval de Barranquilla</h2>
         <div>
-          <input type="text" placeholder="instagram">
+          <img src="./assets/carnaval-barranquilla.jpg" alt="Carnaval de Barranquilla" width="400">
         </div>
+        <hr>
+        
+      </div>
+    </section>
 
-        <button>Enviar</button>
-                
-      </form>
-    </div>
-    
   </main>
-
-  <footer></footer>
-
 
 </body>
 </html>
