@@ -7,19 +7,23 @@
 </head>
 <body>
    <!-- Contenido de la página va aquí-->
-   <header>
-    <a href="#lugares">Lugares 📍</a>
-    <a href="#gastronomia">Gastronomia 🍤</a>
-    <a href="#pesonajes">Pesonajes 👨🏼‍💼👩🏼‍🎤</a>
-    <a href="#carnaval">Carnaval 🎭</a>
-    <a href="#contactanos">Contáctanos 📧</a>
-   </header>
+  <header>
+    <nav>
+      <ul>
+        <li> <a href="#lugares">Lugares 📍</a> </li>
+        <li> <a href="#gastronomia">Gastronomia 🍤</a> </li>
+        <li> <a href="#pesonajes">Pesonajes 👨🏼‍💼👩🏼‍🎤</a> </li>
+        <li> <a href="#carnaval">Carnaval 🎭</a> </li>
+        <li> <a href="#contactanos">Contáctanos 📧</a> </li>
+      </ul>
+    </nav>
+  </header>
 
-   <main>
+  <main>
     
     <div id="hero">
       <h1>¡Así es Barranquilla!</h1>
-      <img src="./atardecer.jpg" alt="atardecer de Barranquilla">
+      <img src="./assets/atardecer.jpg" alt="atardecer de Barranquilla">
       <hr>
     </div>
 
@@ -27,34 +31,38 @@
 
       <h2 id="lugares">Lugares</h2>
       <div>
-        <img src="./ventana-campeones.jpg" alt="ventana de campeones" width="400">
+        <img src="./assets/ventana-campeones.jpg" alt="ventana de campeones" width="400">
       </div>
       <hr>
 
       <h2 id="gastronomia">Gastronomia</h2>
       <div>
-        <img src="./mojarra-frita.jpg" alt="gastronomia" width="400">
+        <img src="./assets/mojarra-frita.jpg" alt="gastronomia" width="400">
       </div>
       <hr>
 
       <h2 id="pesonajes">Pesonajes</h2>
       <div>
-        <img src="./shakira-dancing.jpg" alt="Sharika dancing" width="300">
+        <img src="./assets/shakira-dancing.jpg" alt="Sharika dancing" width="300">
+      </div>
+      <hr>
+
+      <div>
+        <img src="./assets/edgar-renteria.jpg" alt="Edgar Rentería" width="300">
       </div>
       <hr>
 
       <h2 id="carnaval">Carnaval de Barranquilla</h2>
       <div>
-        <img src="./carnaval-barranquilla.jpg" alt="Carnaval de Barranquilla" width="400">
+        <img src="./assets/carnaval-barranquilla.jpg" alt="Carnaval de Barranquilla" width="400">
       </div>
       <hr>
 
     </section>
 
-    <section id="contactanos">
-      <form action="">
-
-        <h3>Contáctanos</h3>
+    <div id="contactanos">
+      
+      <form action="/Enviar" method="post">
 
         <div>
           <input type="text" placeholder="Nombre">
@@ -72,14 +80,14 @@
           <input type="text" placeholder="instagram">
         </div>
 
-        <button>Submit</button>
-        
+        <button>Enviar</button>
+                
       </form>
-    </section>
+    </div>
     
-   </main>
+  </main>
 
-   <footer></footer>
+  <footer></footer>
 
 
 </body>
